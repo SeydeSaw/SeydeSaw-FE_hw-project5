@@ -3,7 +3,132 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*design*/
 
+.header {
+    height: 210px;
+    background: #EEEFF1;
+    padding-top: 60px;
+  
+   
+}
+
+.header-wrapper {
+    width: 60%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.header_wrapper img {
+    height: 60px;
+}
+
+a.home {
+    color: #34547A;
+}
+
+a {
+   
+    font-size: 16px;
+    color: #000000;
+    margin-right: 40px; 
+    text-decoration: none;
+}
+
+
+.design {
+   
+    background: #EEEFF1;
+    padding-bottom: 146px;
+    
+}
+.design-wrapper {
+    width: 55%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.design-image {
+    width: 35%;
+    margin: auto;
+  
+}
+
+.design-info {
+    width: 50%;
+    
+}
+
+h1 {
+    font-size: 45px;
+    color: #000000;
+    
+    margin-bottom: 60px;
+
+}
+
+.design_info {
+   font-size: 16px;
+   color: #727272;
+   
+   margin-bottom: 60px; 
+}
+
+.design-info-internal {
+    height: 65px;
+    width: 225px;
+    background-image: url(./images/button.png);
+    padding: 25px;
+
+}
+.design-info-internal-txt {
+    height: 16px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+
+/*obo_mne*/
+.about_me {
+   padding: 119px 0 100px; 
+}
+.about_me-title {
+    font-size: 32px;
+    text-align: center;
+}
+.about_me-descr {
+    width: 30%;
+    color: #727272;
+    text-align: center;
+    margin: 50px auto 60px;
+}
+/*40_projects*/
+
+.numbers_projects {
+    width: 100%;
+    height: 250px;
+    background: #34547A;
+    padding: 100px 0 100px;
+ 
+}
+
+.numbers_projects-wrapper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.numbers_projects-wrapper img {
+    width: calc(15% - 50px);
+    aspect-ratio: 3/1;
+    margin-right: 50px;
+}
 
 /*moi navqki*/
 .skills {
@@ -72,8 +197,6 @@ margin-bottom: 30px;
    margin: auto;
     
 }
-
-
 
 /*projects*/
 
